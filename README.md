@@ -5,4 +5,4 @@ An implementation of the Chandy Lamport Snapshot algorithm that uses a simple Ba
 
 When the processes are running and transferring amounts in between themselves the user can press enter on a process and it will initiate the snapshot. This kicks off the snapshot algorithm and once completed the states of the processes and their channels is output to the user. To check whether this snapshot is correct the local states of all of the processes combined with what is in the channels must add to 500 * number of processes.
 
-Written as part of a team of three with Dhruvil Tank and Barnaby Colby.
+Written as part of a team of three with Dhruvil Tank (https://github.com/dhruviltank) and Barnaby Colby (https://github.com/barnabycolby).
